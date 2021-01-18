@@ -43,6 +43,7 @@ body{
     margin: 40px auto;
     padding: 15px;
     max-width: 400px;
+    margin-bottom: 14px ;
 }
 
 #main_frame{
@@ -99,4 +100,16 @@ a{
 #foot{
     margin: 0px;
     overflow: hidden;
+}
+
+#main_footer{
+    padding: 10px;
+    background-color: #252525;
+    width: 100%;  
+    margin-bottom: 0;  
+}
+
+#main_footer p{
+    color: aliceblue;
+    text-align: center;
 }

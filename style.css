@@ -33,3 +33,14 @@
     background-color: dimgray;
 
 }
+
+#main_footer{
+    padding: 10px;
+    background-color: #252525;
+    width: 100%;    
+}
+
+#main_footer p{
+    color: aliceblue;
+    text-align: center;
+}
