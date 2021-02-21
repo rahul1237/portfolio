@@ -68,3 +68,8 @@ html,body{
     padding-top: .5em;
     width: 100%;
 }
+
+.facebook:hover{
+    /* background-color: blue; */
+    transform: scale(1.5em);
+}
