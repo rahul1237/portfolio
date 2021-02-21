@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+html,body{
+    height: 100%;
+}
+
 #navbar{
     background-color: #252525;
     /* height: 5em; */
     overflow: auto;
+}
+
+.main_content{
+    /* min-width: no */
+    min-height: 100%;
 }
 
 #head_list{
@@ -29,8 +38,33 @@
     padding: 20px;
 }
 
-#head_list ls a:hover{
+#head_list  a:hover{
     background-color: dimgray;
 
 }
 
+.footer{
+    background-color: rgb(189, 129, 129);
+    height: 5em;
+    position: relative;
+}
+
+.links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+.footer_bottom{
+    background: tomato;
+    height: 2em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: .5em;
+    width: 100%;
+}
