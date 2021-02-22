@@ -83,21 +83,21 @@ html,body{
 /* parallax method */
 
 
-.parallax{
+#parallax{
     background: url('./Screenshot\ 2021-02-22\ 104233.png') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
 
-.parallax1{
+#parallax1{
     background: url('./img1.png') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
 
-.parallax2{
+#parallax2{
     margin-top: 10em;
     background: url('./img2.png') no-repeat center;
     background-size: cover;
@@ -128,4 +128,16 @@ html,body{
     max-width: 960px;
     padding: 25px;
     background-color: #000;
+}
+
+#to_top{
+    position: fixed;
+    background: #000;
+    padding: 1em;
+    border-radius: 2em;
+    z-index: 10;
+    left: 80%;
+    top: 80%;
+    color: red;
+    /* margin: ; */
 }
