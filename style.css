@@ -10,8 +10,10 @@ html,body{
 }
 
 #navbar{
-    background-color: #252525;
+    /* background: linear-gradient(to r); */
     overflow: auto;
+    position: absolute;
+    left: 80%;
 }
 
 .main_box{
@@ -19,15 +21,16 @@ html,body{
     min-height: 100%;
 }
 
-/* .maix` */
 
 #head_list{
     list-style: none;
-    float: right;
+    /* float: right; */
+
 }
 
 #head_list li{
     float: left;
+    /* margin-right: 2em; */
 }
 
 #head_list li a{
@@ -36,20 +39,17 @@ html,body{
     color: blanchedalmond;
     text-align: center;
     padding: 20px;
+    margin-right: 2em;
+    /* margin-left: 2em; */
 }
+
 
 #head_list  a:hover{
     background-color: dimgray;
 
 }
 
-.footer{
-    background-color: rgb(189, 129, 129);
-    height: 5em;
-    position: relative;
-}
-
-.links ul{
+/* .links ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -57,17 +57,18 @@ html,body{
     padding-right: 10em;
     padding-left: 10em;
     backface-visibility: hidden;
-}
+} */
 
 .footer_bottom{
     background: tomato;
-    height: 2em;
+    height: 3em;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding-top: .5em;
+    padding: .5em 0;
     width: 100%;
+}
+
+.footer_bottom p{
+    font-size: 1.5em;
 }
 
 .links li{
@@ -150,12 +151,20 @@ html,body{
 .text{
     height: 100vh;
     display: flex;
+    margin: 1em;
+    background-image: linear-gradient(to right top,rgba(214, 20, 20, 0.527),black),url('pexels-pixabay-270348.jpg');
+    position: relative;
+}
+
+.texts{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1{
+.texts h1{
     margin-right: 1em;
+    color: rgb(3, 139, 250);
 }
 
 .text p{
@@ -164,7 +173,7 @@ h1{
 }
 
 .typed-text{
-    color: red ;
+    color: rgba(255, 153, 0, 0.87) ;
     text-align: center;
 }
 
@@ -182,4 +191,103 @@ h1{
     50%{
         background-color:transparent;
     }
+}
+
+
+/* profile card */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* assigning all the same properties to the body */
+
+
+.container{
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    margin: 10em;
+}
+
+.user-image{
+    padding: 3em 0;
+    background-image: linear-gradient(70deg,#61A1DD,#0083FD);
+}
+
+.user-image img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow:  0 0.6em 1.8em ;
+    object-fit: cover;
+}
+
+.content{
+    color: #565656;
+    padding: 2.2em;
+}
+
+.name{
+    color: darkmagenta;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.username{
+    font-size: 1em;
+    color: #9e9e9e;
+}
+
+
+.details{
+    margin-bottom: 1.8em;
+}
+
+
+/* CSS for messagin link */
+
+.effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: rgb(48, 41, 41);
+    text-transform: capitalize;
+    width: 100%;
+    background-image: linear-gradient(60deg,#0083FD,#61A1DD);
+    font-size: 1.2em;
+    padding: 1em 3em;
+    border-radius: 5em;
+    overflow: hidden; 
+}
+  
+.effect.effect-4:before {
+    content: "\f2b6";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    transform: scale(0, 1);
+}
+.effect.effect-4:hover {
+    text-indent: -9999px;
+}
+    
+.effect.effect-4:hover:before {
+transform: scale(1, 1);
+text-indent: 0; 
 }

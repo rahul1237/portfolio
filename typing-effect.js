@@ -1,7 +1,7 @@
 const typed_text = document.querySelector('.typed-text')
 const cursor = document.querySelector('.cursor')
 
-const text_array = ['a Competitve Programmer and ' , 'a Web Developer.']
+const text_array = ['a Competitve Programmer and' , 'a Web Developer.']
 
 const typing_delay = 200
 const erase_delay = 100
