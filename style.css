@@ -10,9 +10,9 @@ html,body{
 }
 
 #navbar{
-    overflow: auto;
-    position: absolute;
-    left: 80%;
+    /* overflow: auto; */
+    /* position: absolute; */
+    /* left: %; */
 }
 
 .main_box{
@@ -24,23 +24,23 @@ html,body{
     list-style: none;
 }
 
-#head_list li{
-    float: left;
-}
+/* #head_list li{
+    float: right;
+} */
 
 #head_list li a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: blanchedalmond;
     text-align: center;
-    padding: 20px;
-    margin-right: 2em;
+    margin: 2em;
+    font-size: 2em;
 }
 
 
 #head_list  a:hover{
-    background-color: dimgray;
-
+    background-color: rgb(212, 17, 17);
+    transform: scale(1.5em);
 }
 
 .footer_bottom{
