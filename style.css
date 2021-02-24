@@ -10,27 +10,22 @@ html,body{
 }
 
 #navbar{
-    /* background: linear-gradient(to r); */
     overflow: auto;
     position: absolute;
     left: 80%;
 }
 
 .main_box{
-    /* min-width: no */
     min-height: 100%;
 }
 
 
 #head_list{
     list-style: none;
-    /* float: right; */
-
 }
 
 #head_list li{
     float: left;
-    /* margin-right: 2em; */
 }
 
 #head_list li a{
@@ -40,7 +35,6 @@ html,body{
     text-align: center;
     padding: 20px;
     margin-right: 2em;
-    /* margin-left: 2em; */
 }
 
 
@@ -48,16 +42,6 @@ html,body{
     background-color: dimgray;
 
 }
-
-/* .links ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1em;
-    padding-right: 10em;
-    padding-left: 10em;
-    backface-visibility: hidden;
-} */
 
 .footer_bottom{
     background: tomato;
@@ -150,16 +134,19 @@ html,body{
 
 .text{
     height: 100vh;
-    display: flex;
+    display: block;
     margin: 1em;
     background-image: linear-gradient(to right top,rgba(214, 20, 20, 0.527),black),url('pexels-pixabay-270348.jpg');
     position: relative;
 }
 
 .texts{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
 }
 
 .texts h1{
